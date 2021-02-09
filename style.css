@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-color: #0b0c10;
   width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -48,7 +49,7 @@ h6{
 }
 
 .set {
-  padding-top: 250px;
+  padding-top: 225px;
 }
 
 .game-over {
@@ -70,7 +71,7 @@ h6{
   text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
+  width: 100px;
   height: 100px;
   text-align: center;
   margin: 10px;
@@ -81,64 +82,64 @@ h6{
 }
 .pressed .red{
   position: fixed;
-  margin-left: -85px;
+  margin-left: -65px;
   margin-top: -270px;
   border-top: 250px solid red;
   border-bottom: 10px solid red;
-  border-left: 60px solid red;
-  border-right: 60px solid red;
+  border-left: 40px solid red;
+  border-right: 40px solid red;
 }
 .pressed .orange{
   position: fixed;
-  margin-left: -78px;
+  margin-left: -58px;
   margin-top: -270px;
   border-top: 250px solid orange;
   border-bottom: 10px solid orange;
-  border-left: 60px solid orange;
-  border-right: 60px solid orange;
+  border-left: 40px solid orange;
+  border-right: 40px solid orange;
 }
 .pressed .yellow{
   position: fixed;
-  margin-left: -75px;
+  margin-left: -55px;
   margin-top: -270px;
   border-top: 250px solid yellow;
   border-bottom: 10px solid yellow;
-  border-left: 60px solid yellow;
-  border-right: 60px solid yellow;
+  border-left: 40px solid yellow;
+  border-right: 40px solid yellow;
 }
 .pressed .green{
   position: fixed;
-  margin-left: -80px;
+  margin-left: -60px;
   margin-top: -270px;
   border-top: 250px solid green;
   border-bottom: 10px solid green;
-  border-left: 60px solid green;
-  border-right: 60px solid green;
+  border-left: 40px solid green;
+  border-right: 40px solid green;
 }
 .pressed .blue{
   position: fixed;
-  margin-left: -70px;
+  margin-left: -50px;
   margin-top: -270px;
   border-top: 250px solid blue;
   border-bottom: 10px solid blue;
-  border-left: 60px solid blue;
-  border-right: 60px solid blue;
+  border-left: 40px solid blue;
+  border-right: 40px solid blue;
 }
 .pressed .indigo{
   position: fixed;
-  margin-left: -80px;
+  margin-left: -60px;
   margin-top: -270px;
   border-top: 250px solid indigo;
   border-bottom: 10px solid indigo;
-  border-left: 60px solid indigo;
-  border-right: 60px solid indigo;
+  border-left: 40px solid indigo;
+  border-right: 40px solid indigo;
 }
 .pressed .violet{
   position: fixed;
-  margin-left: -70px;
+  margin-left: -50px;
   margin-top: -270px;
   border-top: 250px solid violet;
   border-bottom: 10px solid violet;
-  border-left: 60px solid violet;
-  border-right: 60px solid violet;
+  border-left: 40px solid violet;
+  border-right: 40px solid violet;
 }
