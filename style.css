@@ -1,16 +1,22 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #0b0c10;
+  width: 100%;
 }
 
 h1 {
   font-size: 5rem;
-  color: #dbedf3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #da0463;
+  color: #66fcf1;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 3px 0 #c5c6c1;
 }
-.set {
-  padding-top: 125px;
+h6{
+  font-size: 1rem;
+  margin-top: -30px;
+  color: #66fcf1;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 .w {
@@ -42,17 +48,12 @@ h1 {
 }
 
 .set {
-  margin: 10% auto;
+  padding-top: 250px;
 }
 
 .game-over {
   background-color: red;
   opacity: 0.8;
-}
-
-.pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
 }
 
 .red {
@@ -61,18 +62,83 @@ h1 {
 
 .drum {
   outline: none;
-  border: 10px solid #404b69;
-  font-size: 5rem;
-  font-family: "Arvo", cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #da0463;
+  border: 10px solid #c5c6c1;
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #45a29e;
   text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
-  height: 150px;
+  height: 100px;
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+}
+.pressed .red{
+  position: fixed;
+  margin-left: -85px;
+  margin-top: -270px;
+  border-top: 250px solid red;
+  border-bottom: 10px solid red;
+  border-left: 60px solid red;
+  border-right: 60px solid red;
+}
+.pressed .orange{
+  position: fixed;
+  margin-left: -78px;
+  margin-top: -270px;
+  border-top: 250px solid orange;
+  border-bottom: 10px solid orange;
+  border-left: 60px solid orange;
+  border-right: 60px solid orange;
+}
+.pressed .yellow{
+  position: fixed;
+  margin-left: -75px;
+  margin-top: -270px;
+  border-top: 250px solid yellow;
+  border-bottom: 10px solid yellow;
+  border-left: 60px solid yellow;
+  border-right: 60px solid yellow;
+}
+.pressed .green{
+  position: fixed;
+  margin-left: -80px;
+  margin-top: -270px;
+  border-top: 250px solid green;
+  border-bottom: 10px solid green;
+  border-left: 60px solid green;
+  border-right: 60px solid green;
+}
+.pressed .blue{
+  position: fixed;
+  margin-left: -70px;
+  margin-top: -270px;
+  border-top: 250px solid blue;
+  border-bottom: 10px solid blue;
+  border-left: 60px solid blue;
+  border-right: 60px solid blue;
+}
+.pressed .indigo{
+  position: fixed;
+  margin-left: -80px;
+  margin-top: -270px;
+  border-top: 250px solid indigo;
+  border-bottom: 10px solid indigo;
+  border-left: 60px solid indigo;
+  border-right: 60px solid indigo;
+}
+.pressed .violet{
+  position: fixed;
+  margin-left: -70px;
+  margin-top: -270px;
+  border-top: 250px solid violet;
+  border-bottom: 10px solid violet;
+  border-left: 60px solid violet;
+  border-right: 60px solid violet;
 }
