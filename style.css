@@ -82,9 +82,9 @@ h6{
 }
 .pressed .red{
   position: fixed;
-  margin-left: -65px;
-  margin-top: -270px;
-  border-top: 250px solid red;
+  margin-left: -68px;
+  margin-top: -220px;
+  border-top: 200px solid red;
   border-bottom: 10px solid red;
   border-left: 40px solid red;
   border-right: 40px solid red;
@@ -92,8 +92,8 @@ h6{
 .pressed .orange{
   position: fixed;
   margin-left: -58px;
-  margin-top: -270px;
-  border-top: 250px solid orange;
+  margin-top: -220px;
+  border-top: 200px solid orange;
   border-bottom: 10px solid orange;
   border-left: 40px solid orange;
   border-right: 40px solid orange;
@@ -101,8 +101,8 @@ h6{
 .pressed .yellow{
   position: fixed;
   margin-left: -55px;
-  margin-top: -270px;
-  border-top: 250px solid yellow;
+  margin-top: -220px;
+  border-top: 200px solid yellow;
   border-bottom: 10px solid yellow;
   border-left: 40px solid yellow;
   border-right: 40px solid yellow;
@@ -110,8 +110,8 @@ h6{
 .pressed .green{
   position: fixed;
   margin-left: -60px;
-  margin-top: -270px;
-  border-top: 250px solid green;
+  margin-top: -220px;
+  border-top: 200px solid green;
   border-bottom: 10px solid green;
   border-left: 40px solid green;
   border-right: 40px solid green;
@@ -119,8 +119,8 @@ h6{
 .pressed .blue{
   position: fixed;
   margin-left: -50px;
-  margin-top: -270px;
-  border-top: 250px solid blue;
+  margin-top: -220px;
+  border-top: 200px solid blue;
   border-bottom: 10px solid blue;
   border-left: 40px solid blue;
   border-right: 40px solid blue;
@@ -128,8 +128,8 @@ h6{
 .pressed .indigo{
   position: fixed;
   margin-left: -60px;
-  margin-top: -270px;
-  border-top: 250px solid indigo;
+  margin-top: -220px;
+  border-top: 200px solid indigo;
   border-bottom: 10px solid indigo;
   border-left: 40px solid indigo;
   border-right: 40px solid indigo;
@@ -137,8 +137,8 @@ h6{
 .pressed .violet{
   position: fixed;
   margin-left: -50px;
-  margin-top: -270px;
-  border-top: 250px solid violet;
+  margin-top: -220px;
+  border-top: 200px solid violet;
   border-bottom: 10px solid violet;
   border-left: 40px solid violet;
   border-right: 40px solid violet;
